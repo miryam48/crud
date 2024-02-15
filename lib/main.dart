@@ -34,7 +34,6 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-
         appBar: AppBar(
           title: Text('Firebase'),
           centerTitle: true,

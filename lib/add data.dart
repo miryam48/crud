@@ -33,6 +33,7 @@ class _adddataState extends State<adddata> {
               decoration: InputDecoration(hintText: 'Title'),),
             padd,
             TextField(
+              maxLength: 10,
               controller: _subtcontroller,
               decoration: InputDecoration(hintText: 'Subtile'),),
             padd,
